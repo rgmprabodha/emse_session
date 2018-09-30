@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="developer">
+	<xs:complexType>
+    	<xs:sequence>
+			<xs:element name="name" type="xs:string"/>			
+			<xs:element name="family">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="member">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="birthday" type="xs:date"/>
+									<xs:element name="height" type="xs:decimal"/>
+									<xs:element name="weight" type="xs:decimal"/>
+									<xs:element name="trip" maxOccurs="unbounded" minOccurs="0">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="location" type="xs:string"/>
+												<xs:element name="time" type="xs:time"/>
+												<xs:element name="transportation" type="xs:string"/>					
+											</xs:sequence>
+											<xs:attribute name="id" type="xs:byte" use="required"/>
+											<xs:attribute name="tripdate" type="xs:date" use="required"/>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:string" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>
