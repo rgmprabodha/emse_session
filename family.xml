@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <developer>
-<name>Malshani RANCHA GODAGE</name>
-<family>
-	<member id="mother">
-		<birthday>1964-07-03</birthday>
-		<height>120</height>
-		<weight>55</weight>
-		<trip id="1" tripdate="2018-08-10">
-			<location>shop</location>
-			<time>09:30:10Z</time>
-			<transportaion>bus</transportaion>
-		</trip>
-	</member>
-	<member id="father">
-		<birthday>1954-04-13</birthday>
-		<height>140</height>
-		<weight>70</weight>
-		<trip id="1" tripdate="2018-08-11">
-			<location>class</location>
-			<time>08:20:00Z</time>
-			<transportaion>car</transportaion>
-		</trip>
-		<trip id="2" tripdate="2018-08-11">
-			<location>shop</location>
-			<time>13:30:10Z</time>
-			<transportaion>bus</transportaion>
-		</trip>
-	</member>
-</family>
+	<name>Malshani RANCHA GODAGE</name>
+	<family>
+		<member id="mother">
+			<birthday>1964-07-03</birthday>
+			<height>120</height>
+			<weight>55</weight>
+			<trip id="1" tripdate="2018-08-10">
+				<location>shop</location>
+				<time>09:30:10Z</time>
+				<transportaion>bus</transportaion>
+			</trip>
+		</member>
+		<member id="father">
+			<birthday>1954-04-13</birthday>
+			<height>140</height>
+			<weight>70</weight>
+			<trip id="1" tripdate="2018-08-11">
+				<location>class</location>
+				<time>08:20:00Z</time>
+				<transportaion>car</transportaion>
+			</trip>
+			<trip id="2" tripdate="2018-08-11">
+				<location>shop</location>
+				<time>13:30:10Z</time>
+				<transportaion>bus</transportaion>
+			</trip>
+		</member>
+	</family>
 </developer>
